@@ -1,0 +1,12 @@
+Architecture: windows_x64
+Built-Using: nipkg
+Description: mycompany-myproduct-1
+Maintainer: MyCompany <email@mycompany.com>
+Package: ts-configuration
+Section: Application Software
+UserVisible: yes
+Version: 1.0.0.1
+XB-DisplayName: TestStand Configuration
+XB-Plugin: file
+XB-StoreProduct: yes
+XB-VisibleForRuntimeDeployment: no

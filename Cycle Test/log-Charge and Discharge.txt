@@ -1,0 +1,8 @@
+[5:34:59.77 PM] Solution log file opened: D:\GitHub\battery-tester\Cycle Test\log-Charge and Discharge.txt
+[5:34:59.77 PM] System summary
+   Date               4/3/2020 5:34:59 PM
+   NIPB version       19.0.1.49152
+   NIPB bitness       64-bit
+   NIPM version       20.0.0.49153
+   Operating System   Windows 10 64-bit
+[5:36:54.46 PM] Solution log file closed: D:\GitHub\battery-tester\Cycle Test\log-Charge and Discharge.txt
