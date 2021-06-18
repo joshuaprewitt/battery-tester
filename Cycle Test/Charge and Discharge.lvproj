@@ -16,7 +16,9 @@
 		</Item>
 		<Item Name="Charge and Discharge.vi" Type="VI" URL="../Charge and Discharge.vi"/>
 		<Item Name="Energy and Capacity.vi" Type="VI" URL="../Energy and Capacity.vi"/>
+		<Item Name="Log battery data to TDMS.vi" Type="VI" URL="../Log battery data to TDMS.vi"/>
 		<Item Name="Log to TDMS.vi" Type="VI" URL="../Log to TDMS.vi"/>
+		<Item Name="Send File with Properties.vi" Type="VI" URL="../Send File with Properties.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
