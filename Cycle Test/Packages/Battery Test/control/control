@@ -1,0 +1,12 @@
+Architecture: windows_x64
+Built-Using: nipkg
+Description: Awesome battery tester
+Maintainer: Acme <email@mycompany.com>
+Package: battery-test
+Section: Application Software
+Version: 1.0.0.3
+XB-DisplayName: Battery Test
+XB-Plugin: file
+XB-StoreProduct: yes
+XB-UserVisible: yes
+XB-VisibleForRuntimeDeployment: no

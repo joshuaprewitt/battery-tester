@@ -82,35 +82,51 @@
             </DistributionItems>
             <Name>Battery Test</Name>
             <OutputDirectory>Packages</OutputDirectory>
-            <PluginConfigurationOptions />
+            <PluginConfigurationOptions>
+                <ConfigurationOption z:Id="i15">
+                    <Definition z:Id="i16">
+                        <Description>Publish LabVIEW NXG projects as examples or templates.</Description>
+                        <Name>Publish examples to LabVIEW NXG</Name>
+                    </Definition>
+                    <HasDefaultValues>true</HasDefaultValues>
+                    <Value z:Id="i17" i:type="DialogConfigurationOptionValue">
+                        <Values>
+                            <ConfigurationOptionValue z:Id="i18" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
+                                <d8p1:Value z:Id="i19" i:type="d8p1:LauncherRoot">
+                                    <d8p1:Children />
+                                </d8p1:Value>
+                            </ConfigurationOptionValue>
+                        </Values>
+                    </Value>
+                </ConfigurationOption>
+            </PluginConfigurationOptions>
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
-            <BuildStatus z:Id="i15">
+            <BuildStatus z:Id="i20">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>battery-test_1.0.0.1_windows_x64.nipkg</FileName>
-                <Version>1.0.0.1</Version>
+                <FileName>battery-test_1.0.0.3_windows_x64.nipkg</FileName>
+                <Version>1.0.0.3</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
             <DisplayName>Battery Test</DisplayName>
-            <DisplayVersion>1.0.0</DisplayVersion>
-            <FileName>battery-test_1.0.0.2_windows_x64.nipkg</FileName>
+            <FileName>battery-test_1.0.0.4_windows_x64.nipkg</FileName>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
-            <MaintainerName>MyCompany</MaintainerName>
+            <MaintainerName>Acme</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <PackageName>battery-test</PackageName>
             <PackageRelationships />
             <ProductName>MyProduct</ProductName>
             <Section>Application Software</Section>
             <StoreProduct>true</StoreProduct>
-            <Synopsis>Tests batteries</Synopsis>
-            <Version>1.0.0.2</Version>
+            <Synopsis>Awesome battery tester</Synopsis>
+            <Version>1.0.0.4</Version>
         </Distribution>
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i16">
+        <DistributionGroup z:Id="i21">
             <Distributions>
                 <Distribution z:Ref="i6" />
             </Distributions>
@@ -121,55 +137,59 @@
     </DistributionGroups>
     <TestStandMode>true</TestStandMode>
     <PluginConfigurationOptions>
-        <ConfigurationOption z:Id="i17">
-            <Definition z:Id="i18">
+        <ConfigurationOption z:Id="i22">
+            <Definition z:Id="i23">
                 <Description i:nil="true" />
                 <Name>TestStand Options</Name>
             </Definition>
             <HasDefaultValues>true</HasDefaultValues>
-            <Value z:Id="i19" i:type="DialogConfigurationOptionValue">
+            <Value z:Id="i24" i:type="DialogConfigurationOptionValue">
                 <Values>
-                    <ConfigurationOptionValue z:Id="i20" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i21" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i22" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i23" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i25" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i26" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i27" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i28" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i24" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i29" i:type="StringConfigurationOptionValue">
                         <Value>SupportVIs</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i25" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i26" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i30" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i31" i:type="StringConfigurationOptionValue">
                         <Value />
-                    </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i27" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i28" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i29" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i30" i:type="BooleanConfigurationOptionValue">
-                        <Value>true</Value>
-                    </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i31" i:type="BooleanConfigurationOptionValue">
-                        <Value>true</Value>
                     </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i32" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i33" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i34" i:type="PathConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i34" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i35" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i36" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i37" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i38" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i39" i:type="PathConfigurationOptionValue">
                         <RelativePath />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i35" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i36" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i37" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i40" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i41" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i42" i:type="StringConfigurationOptionValue">
                         <Value>[BootVolume]</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i38" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i43" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i39" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i44" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i40" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i45" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i46" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i47" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i48" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i49" i:type="BooleanConfigurationOptionValue" />
                 </Values>
             </Value>
         </ConfigurationOption>
