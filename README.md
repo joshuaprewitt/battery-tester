@@ -4,8 +4,8 @@ This applications uses NI [TestStand](https://www.ni.com/en-us/shop/electronic-t
 ## Prerequisits to running this application
 - A Windows Server with [NI SystemLink installed](https://www.ni.com/en-us/support/downloads/software-products/download.systemlink.html#352201) and [configured](https://www.ni.com/documentation/en/systemlink/latest/setup/configuring-systemlink-server-clients/). 
 - One or more Windows PCs meeting the system requirements of the LabVIEW Runtime Engine and NI TestStand.
-    - [NI LabVIEW Runtime Engine 2019](https://www.ni.com/en-us/support/downloads/software-products/download.labview-runtime.html#346222)
-    - [NI TestStand 2019](https://www.ni.com/en-us/support/downloads/software-products/download.teststand.html#305461)
+    - [NI LabVIEW Runtime Engine](https://www.ni.com/en-us/support/downloads/software-products/download.labview-runtime.html#346222)
+    - [NI TestStand](https://www.ni.com/en-us/support/downloads/software-products/download.teststand.html#305461)
     - [NI SystemLink Client](https://www.ni.com/en-us/support/downloads/software-products/download.systemlink-client.html#351413)
 
 
